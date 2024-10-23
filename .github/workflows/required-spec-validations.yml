@@ -32,7 +32,7 @@ jobs:
           with:
             timeout_minutes: 10
             max_attempts: 3
-            command: npm ci
+            command: npm install
         - name: Download openapi-foas
           uses: actions/download-artifact@v4
           with:
